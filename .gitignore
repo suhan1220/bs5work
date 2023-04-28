@@ -1,0 +1,4 @@
+# npm files
+node_modules/
+**/**/bootstrap/
+**/*/Thumbs.db

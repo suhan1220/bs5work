@@ -1,0 +1,25 @@
+//客製顏色
+$primary: #0052db;
+$secondary: #f2f4f7;
+$third:#bcc6eb;
+$success: $primary;
+$warning:#e7a64c;
+$danger:#c90000;
+$black: #1D1D1D;
+$custom-colors: ("third": $third);
+
+$body-color:$black;
+$font-family-sans-serif:system-ui,
+-apple-system,
+"微軟正黑體",
+Roboto,
+"Helvetica Neue",
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji";
+$font-size-base: 1.125rem;
+//載入
+@import "custom-bootstrap";

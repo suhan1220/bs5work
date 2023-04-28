@@ -1,0 +1,11 @@
+{
+  "name": "bs5work",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/suhan1220/bs5work.git",
+  "author": "suhan1220 <anny9756@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
