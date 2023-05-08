@@ -35,7 +35,7 @@ HTML\CSS 更新預覽、靜態檔案的壓縮，改用 VSCode 搭配套件完成
 github參考專案資料夾
 https://github.com/suhan1220/bs5work
 
-Step1.在VSCode開啟專案，打開終端機
+Step1.在VSCode開啟專案，打開終端機  
 輸入 yarn init 設定你的基本package資訊  
 輸入 yarn add bootstrap@5.2.3
 
