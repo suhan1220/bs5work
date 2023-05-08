@@ -35,15 +35,14 @@ HTML\CSS 更新預覽、靜態檔案的壓縮，改用 VSCode 搭配套件完成
 Step1.下載本專案  
 
 Step2.在VSCode開啟專案，打開終端機
+輸入 yarn init 設定你的基本package資訊  
+輸入 yarn add bootstrap@5.2.3
 
-Step3.輸入 yarn init 設定你的基本package資訊  
-Step4.輸入 yarn add bootstrap@5.2.3
-
-Step5.打開 styles/_custom-bootstrap.scss  
+Step3.打開 styles/_custom-bootstrap.scss  
 我已設定好對應NPM位置的SCSS位置，  
 註解掉你不需要的{components}.scss檔，需要的再取消註解即可。
 
-Step6.打開 styles/main.scss 修改SCSS預設值  
+Step4.打開 styles/main.scss 修改SCSS預設值  
 ( 不要再 !important 了 )
 
 在 @import "custom-bootstrap"; 前，
@@ -52,8 +51,8 @@ Step6.打開 styles/main.scss 修改SCSS預設值
 
 > 如果不知道預設的宣告名稱為什麼，可以進到node_modules/bootstrap/scss/_variables.scss 裡面尋找，下關鍵字找很快的。也可看[官方英文版](https://getbootstrap.com/docs/5.1/customize/sass/#variable-defaults)其實也有說明如何修改。
 
-Step7.點擊 [Watch Sass]，存檔更新 css 檔案。  
-Step8.點擊 Cheatsheet-Bootstrap5.html 檔案可見修改過後的客製化 bootstrap 樣式。
+Step5.點擊 [Watch Sass]，存檔更新 css 檔案。  
+Step6.點擊 Cheatsheet-Bootstrap5.html 檔案可見修改過後的客製化 bootstrap 樣式。
 > 被關掉或移除的樣式就只會看到沒有樣式的狀態囉!
 
 
